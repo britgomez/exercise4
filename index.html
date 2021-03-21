@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+
+<head>
+
+<style>
+*{
+box-sizing:border-box;
+margin:0;
+}
+    
+#logo{
+    letter-spacing: .5em;
+padding:10px;
+}
+    
+#logo a{
+text-decoration: none;
+color:#a32c57;
+}
+    
+#bttn{
+display:none;
+}
+    
+header{
+border-bottom:1px solid #000;
+position:fixed;
+width:100%;
+height: 60px;
+top:0px;
+background:white;
+}
+    
+nav{
+position:absolute;
+right:15px;
+top:12px;
+}
+    
+nav ul{
+list-style: none;
+padding:0;
+}
+    
+nav li{
+display:inline-block;
+vertical-align: top;
+}
+    
+nav li ul{
+display:none;
+}
+    
+nav li:hover ul{
+display:block;
+}
+    
+nav li ul li{
+display:block;
+}
+    
+nav a{
+display:block;
+border:1px solid #d84c6f;
+color:#d84c6f;
+padding:5px 15px;
+text-decoration: none;
+width:100px;
+background:white;
+}
+    
+nav a:hover{
+color:white;
+background:#d84c6f;
+}
+    
+#parOne{
+margin-top:60px;
+margin-left: 10px;
+margin-right: 10px;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+<header>
+
+<div id="logo">
+<h1><a href="index.html">LOGO</a></h1>
+</div>
+
+<button id="bttn">&#9776;</button>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="index.html">About</a>
+<ul>
+<li><a href="">History</a>
+<li><a href="">Our Team</a>
+</ul>
+</li>
+<li><a href="index.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<p id="parOne">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>
